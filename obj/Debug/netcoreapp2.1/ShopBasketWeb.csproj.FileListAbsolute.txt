@@ -1,0 +1,42 @@
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.deps.json
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.json
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.dev.json
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.csproj.CoreCompileInputs.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cs
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfoInputs.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfo.cs
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.csprojAssemblyReference.cache
+E:\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.deps.json
+E:\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.json
+E:\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.dev.json
+E:\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.dll
+E:\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.csprojAssemblyReference.cache
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.csproj.CoreCompileInputs.cache
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cache
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cs
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfoInputs.cache
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfo.cs
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorTargetAssemblyInfo.cache
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.dll
+E:\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.deps.json
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.json
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.dev.json
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\bin\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.csprojAssemblyReference.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.csproj.CoreCompileInputs.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cs
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfoInputs.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfo.cs
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.pdb

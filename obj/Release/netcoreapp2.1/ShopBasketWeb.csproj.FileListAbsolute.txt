@@ -1,0 +1,14 @@
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Release\netcoreapp2.1\ShopBasketWeb.deps.json
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Release\netcoreapp2.1\ShopBasketWeb.runtimeconfig.json
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Release\netcoreapp2.1\ShopBasketWeb.runtimeconfig.dev.json
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Release\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\bin\Release\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.csprojAssemblyReference.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.csproj.CoreCompileInputs.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cs
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.AssemblyInfoInputs.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.AssemblyInfo.cs
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Documents\projectPrac2019\ShopBasketWeb\obj\Release\netcoreapp2.1\ShopBasketWeb.pdb
