@@ -12253,11 +12253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\Project_2019\\ShopBasketWeb\\ShopBasketWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\ShopBasketWeb.csproj",
       "projectName": "ShopBasketWeb",
-      "projectPath": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\Project_2019\\ShopBasketWeb\\ShopBasketWeb.csproj",
+      "projectPath": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\ShopBasketWeb.csproj",
       "packagesPath": "C:\\Users\\Maurice\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\Project_2019\\ShopBasketWeb\\obj\\",
+      "outputPath": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
