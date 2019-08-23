@@ -40,3 +40,17 @@ C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\D
 C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorTargetAssemblyInfo.cache
 C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.dll
 C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\Project_2019\ShopBasketWeb\obj\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.csprojAssemblyReference.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.csproj.CoreCompileInputs.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorAssemblyInfo.cs
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfoInputs.cache
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.AssemblyInfo.cs
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\bin\Debug\netcoreapp2.1\ShopBasketWeb.deps.json
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.json
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\bin\Debug\netcoreapp2.1\ShopBasketWeb.runtimeconfig.dev.json
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\bin\Debug\netcoreapp2.1\ShopBasketWeb.dll
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\bin\Debug\netcoreapp2.1\ShopBasketWeb.pdb
+C:\Users\Maurice\Desktop\Nmmu IT\4th Final Year\4thYearProjectAPI\obj\Debug\netcoreapp2.1\ShopBasketWeb.RazorTargetAssemblyInfo.cache

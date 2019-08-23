@@ -13,5 +13,7 @@ namespace ShopBasketWeb.DataAccess
         Task<IEnumerable<ProductsOnSpecial>> GetProductsOnSpecial();
 
         Task<IEnumerable<SearchedProducts>> GetSeachedProducts(string searchData);
+
+        Task<IEnumerable<ProductsByCat>> GetProductsByCategory(string CatID);
     }
 }
