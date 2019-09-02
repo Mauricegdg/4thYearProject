@@ -45,5 +45,21 @@ namespace ShopBasketWeb.DataAccess
 
             
         }
+
+        public async Task<IEnumerable<ProductsByCat>> GetProductsByCategory(int CatID)
+        {
+
+
+            using (var sqlConn = new SqlConnection(connectionString))
+            {
+                await sqlConn.OpenAsync();
+                var dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@CatID", CatID);
+
+                return await sqlConn.QueryAsync<ProductsByCat>("dbo.uspGetProductsByCategory", dynamicParameters, commandType: CommandType.StoredProcedure);
+            }
+
+
+        }
     }
 }
