@@ -24,7 +24,7 @@ namespace ShopBasketWeb.Controllers
         }
 
         [HttpGet("{CatID}")]
-        public async Task<IEnumerable<ProductsByCat>> GetProductsByCategory(string CatID)
+        public async Task<IEnumerable<ProductsByCat>> GetProductsByCategory(int CatID)
         {
             return await this.dataProvider.GetProductsByCategory(CatID);
 

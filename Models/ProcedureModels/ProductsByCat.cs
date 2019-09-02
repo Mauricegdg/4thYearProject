@@ -9,6 +9,8 @@ namespace ShopBasketWeb.Models.ProcedureModels
     {
         public string Barcode { get; set; }
         public string ProdName { get; set; }
+
+       
         public string ProdDescription { get; set; }
 
         public string ProdImageUrl { get; set; }

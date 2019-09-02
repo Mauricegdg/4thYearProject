@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\ShopBasketWeb.csproj": {}
+    "C:\\Users\\Maurice\\Desktop\\IT 4th year\\Project IV\\4thYearProjectAPI\\ShopBasketWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\ShopBasketWeb.csproj": {
+    "C:\\Users\\Maurice\\Desktop\\IT 4th year\\Project IV\\4thYearProjectAPI\\ShopBasketWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\ShopBasketWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Maurice\\Desktop\\IT 4th year\\Project IV\\4thYearProjectAPI\\ShopBasketWeb.csproj",
         "projectName": "ShopBasketWeb",
-        "projectPath": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\ShopBasketWeb.csproj",
+        "projectPath": "C:\\Users\\Maurice\\Desktop\\IT 4th year\\Project IV\\4thYearProjectAPI\\ShopBasketWeb.csproj",
         "packagesPath": "C:\\Users\\Maurice\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maurice\\Desktop\\Nmmu IT\\4th Final Year\\4thYearProjectAPI\\obj\\",
+        "outputPath": "C:\\Users\\Maurice\\Desktop\\IT 4th year\\Project IV\\4thYearProjectAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
