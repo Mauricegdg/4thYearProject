@@ -10,10 +10,11 @@ namespace ShopBasketWeb.DataAccess
 
     public interface IDataProvider
     {
-        Task<IEnumerable<ProductsOnSpecial>> GetProductsOnSpecial();
+        Task<IEnumerable<ProductsOnSpecial>> GetProductsOnSpecial(int StoreID);
 
         Task<IEnumerable<SearchedProducts>> GetSeachedProducts(string searchData);
 
         Task<IEnumerable<ProductsByCat>> GetProductsByCategory(int CatID);
+        Task<IEnumerable<Store_In_Range>> GetStoreLocations();
     }
 }

@@ -13,8 +13,6 @@ namespace ShopBasketWeb.Models.ProcedureModels
 
         public string CatName { get; set; }
 
-        //public float Current_Price { get; set; }
-
         public string ProdImageUrl { get; set; }
 
 

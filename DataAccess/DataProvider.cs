@@ -16,18 +16,34 @@ namespace ShopBasketWeb.DataAccess
 
         private SqlConnection sqlConn;
 
-        public async Task<IEnumerable<ProductsOnSpecial>> GetProductsOnSpecial()
+        public async Task<IEnumerable<ProductsOnSpecial>> GetProductsOnSpecial(int StoreID)
         {
-            IEnumerable<ProductsOnSpecial> productsOnSpecials;
+            // IEnumerable<ProductsOnSpecial> productsOnSpecials;
+
+            using (var sqlConn = new SqlConnection(connectionString))
+            {
+                await sqlConn.OpenAsync();
+                var dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@StoreID", StoreID);
+
+                return await sqlConn.QueryAsync<ProductsOnSpecial>("dbo.uspGetProductsOnSpecial",dynamicParameters, commandType: CommandType.StoredProcedure);
+            }
+
+           
+        }
+
+        public async Task<IEnumerable<Store_In_Range>> GetStoreLocations()
+        {
+            IEnumerable<Store_In_Range> storeLocations;
 
             using (var sqlConn = new SqlConnection(connectionString))
             {
                 await sqlConn.OpenAsync();
 
-                productsOnSpecials = await sqlConn.QueryAsync<ProductsOnSpecial>("dbo.uspGetProductsOnSpecial", null, commandType: CommandType.StoredProcedure);
+                storeLocations = await sqlConn.QueryAsync<Store_In_Range>("uspGetAllStoreLocations", null, commandType: CommandType.StoredProcedure);
             }
 
-            return productsOnSpecials;
+            return storeLocations;
         }
 
         public async Task<IEnumerable<SearchedProducts>> GetSeachedProducts(string searchData)
