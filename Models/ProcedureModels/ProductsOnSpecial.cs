@@ -13,7 +13,7 @@ namespace ShopBasketWeb.Models.ProcedureModels
 
         public string CatName { get; set; }
 
-        public string ProdImageUrl { get; set; }
+        public byte[] ProdImg { get; set; }
 
 
 
