@@ -77,5 +77,86 @@ namespace ShopBasketWeb.DataAccess
 
 
         }
+
+        public async Task AddToBasket(ShoppingListInfo shoppingListInfo)
+        {
+            using (var sqlConn = new SqlConnection(connectionString))
+            {
+                await sqlConn.OpenAsync();
+                var dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@barcode", shoppingListInfo.Barcode);
+                dynamicParameters.Add("@userName", shoppingListInfo.UserName);
+                dynamicParameters.Add("@qty", shoppingListInfo.Qty);
+
+                await sqlConn.ExecuteAsync("dbo.uspInsertToBasket", dynamicParameters, commandType: CommandType.StoredProcedure);
+
+
+            }
+
+        }
+
+        public async Task UpdateQty(ShoppingListInfo shoppingListInfo, int Qty)
+        {
+            using (var sqlConn = new SqlConnection(connectionString))
+            {
+                await sqlConn.OpenAsync();
+                var dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@barcode", shoppingListInfo.Barcode);
+                dynamicParameters.Add("@userName", shoppingListInfo.UserName);
+                dynamicParameters.Add("@qty", Qty);
+
+                await sqlConn.ExecuteAsync("dbo.uspUpdateQty", dynamicParameters, commandType: CommandType.StoredProcedure);
+
+
+            }
+
+        }
+
+        public async Task DeleteFromBasket(string Barcode, string UserName)
+        {
+            using (var sqlConn = new SqlConnection(connectionString))
+            {
+                await sqlConn.OpenAsync();
+                var dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@barcode", Barcode);
+                dynamicParameters.Add("@userName", UserName);
+
+                await sqlConn.ExecuteAsync("dbo.uspDeleteFromBasket", dynamicParameters, commandType: CommandType.StoredProcedure);
+
+
+            }
+
+        }
+
+        public async Task DeleteAllFromBasket(string UserName)
+        {
+            using (var sqlConn = new SqlConnection(connectionString))
+            {
+                await sqlConn.OpenAsync();
+                var dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@userName", UserName);
+
+                await sqlConn.ExecuteAsync("dbo.uspDeleteAllFromBasket", dynamicParameters, commandType: CommandType.StoredProcedure);
+
+
+            }
+
+        }
+
+        public async Task<IEnumerable<ProductsOnSpecial>> GetBasketProducts(string UserName)
+        {
+
+
+            using (var sqlConn = new SqlConnection(connectionString))
+            {
+                await sqlConn.OpenAsync();
+                var dynamicParameters = new DynamicParameters();
+                dynamicParameters.Add("@userName", UserName);
+
+                return await sqlConn.QueryAsync<ProductsOnSpecial>("dbo.uspGetBasketProducts", dynamicParameters, commandType: CommandType.StoredProcedure);
+            }
+
+
+        }
     }
 }

@@ -16,5 +16,11 @@ namespace ShopBasketWeb.DataAccess
 
         Task<IEnumerable<ProductsByCat>> GetProductsByCategory(int CatID);
         Task<IEnumerable<Store_In_Range>> GetStoreLocations();
+
+        Task AddToBasket(ShoppingListInfo shoppingListInfo);
+        Task<IEnumerable<ProductsOnSpecial>> GetBasketProducts(string UserName);
+        Task DeleteAllFromBasket(string UserName);
+        Task DeleteFromBasket(string Barcode, string UserName);
+        Task UpdateQty(ShoppingListInfo shoppingListInfo, int Qty);
     }
 }
