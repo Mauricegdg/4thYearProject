@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="ShopBasket" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Maurice\\Documents\\projectPrac2019\\ShopBasketWeb\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Maurice\\Desktop\\Nmmu\ IT\\4th\ Final\ Year\\4thYearProjectAPI\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

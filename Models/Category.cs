@@ -11,8 +11,8 @@ namespace ShopBasketWeb.Models
         }
 
         public int CatId { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string CatName { get; set; }
+        public string CatDescription { get; set; }
 
         public ICollection<Product> Product { get; set; }
     }

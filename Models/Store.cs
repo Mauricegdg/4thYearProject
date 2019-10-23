@@ -10,10 +10,11 @@ namespace ShopBasketWeb.Models
             ProductInfo = new HashSet<ProductInfo>();
         }
 
-        public int StroreId { get; set; }
-        public string Name { get; set; }
+        public int StoreId { get; set; }
+        public string StoreName { get; set; }
         public string Latitude { get; set; }
         public string Longitude { get; set; }
+        public string StoreImageUrl { get; set; }
 
         public ICollection<ProductInfo> ProductInfo { get; set; }
     }

@@ -5,17 +5,11 @@ namespace ShopBasketWeb.Models
 {
     public partial class ShoppingList
     {
-        public ShoppingList()
-        {
-            ListProductInfo = new HashSet<ListProductInfo>();
-        }
-
-        public int ListId { get; set; }
         public string UserName { get; set; }
-        public decimal? TotalCost { get; set; }
-        public string ItemList { get; set; }
+        public string Barcode { get; set; }
+        public int? Qty { get; set; }
 
+        public Product BarcodeNavigation { get; set; }
         public User UserNameNavigation { get; set; }
-        public ICollection<ListProductInfo> ListProductInfo { get; set; }
     }
 }

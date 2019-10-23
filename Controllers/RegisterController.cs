@@ -44,6 +44,7 @@ namespace ShopBasketWeb.Controllers
                 
                 user.Name = value.Name;
                 user.Surename = value.Surename;
+                user.TypeId = 2;
 
                 try
                 {
@@ -63,16 +64,6 @@ namespace ShopBasketWeb.Controllers
             }
         }
 
-        // PUT api/values/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-       // {
-        //}
-
-        // DELETE api/values/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-       // {
-       // }
+       
     }
 }

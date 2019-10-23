@@ -16,13 +16,13 @@ namespace ShopBasketWeb.Models
         }
 
         public virtual DbSet<Category> Category { get; set; }
-        public virtual DbSet<ListProductInfo> ListProductInfo { get; set; }
         public virtual DbSet<PriceInfo> PriceInfo { get; set; }
         public virtual DbSet<Product> Product { get; set; }
         public virtual DbSet<ProductInfo> ProductInfo { get; set; }
         public virtual DbSet<ShoppingList> ShoppingList { get; set; }
         public virtual DbSet<Store> Store { get; set; }
         public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<UserType> UserType { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -39,36 +39,9 @@ namespace ShopBasketWeb.Models
             {
                 entity.HasKey(e => e.CatId);
 
-                entity.Property(e => e.CatId)
-                    .HasColumnName("CatID")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.CatId).HasColumnName("CatID");
 
-                entity.Property(e => e.Name).HasMaxLength(50);
-            });
-
-            modelBuilder.Entity<ListProductInfo>(entity =>
-            {
-                entity.HasKey(e => new { e.ListId, e.ProductInfo });
-
-                entity.ToTable("List_productInfo");
-
-                entity.Property(e => e.ListId).HasColumnName("ListID");
-
-                entity.Property(e => e.ProductInfo).HasColumnName("ProductInfo#");
-
-                entity.Property(e => e.Qty).HasColumnName("qty");
-
-                entity.HasOne(d => d.List)
-                    .WithMany(p => p.ListProductInfo)
-                    .HasForeignKey(d => d.ListId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_List_productInfo_ShoppingList");
-
-                entity.HasOne(d => d.ProductInfoNavigation)
-                    .WithMany(p => p.ListProductInfo)
-                    .HasForeignKey(d => d.ProductInfo)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_List_productInfo_Product_Info");
+                entity.Property(e => e.CatName).HasMaxLength(50);
             });
 
             modelBuilder.Entity<PriceInfo>(entity =>
@@ -106,9 +79,11 @@ namespace ShopBasketWeb.Models
 
                 entity.Property(e => e.CatId).HasColumnName("catID");
 
-                entity.Property(e => e.Description).HasMaxLength(50);
+                entity.Property(e => e.ProdDescription).HasMaxLength(50);
 
-                entity.Property(e => e.Name).HasMaxLength(50);
+                entity.Property(e => e.ProdImg).HasColumnType("image");
+
+                entity.Property(e => e.ProdName).HasMaxLength(50);
 
                 entity.HasOne(d => d.Cat)
                     .WithMany(p => p.Product)
@@ -125,6 +100,8 @@ namespace ShopBasketWeb.Models
 
                 entity.Property(e => e.ProductInfo1)
                     .HasColumnName("ProductInfo#")
+                    .HasMaxLength(250)
+                    .IsUnicode(false)
                     .ValueGeneratedNever();
 
                 entity.Property(e => e.Barcode)
@@ -156,19 +133,17 @@ namespace ShopBasketWeb.Models
 
             modelBuilder.Entity<ShoppingList>(entity =>
             {
-                entity.HasKey(e => e.ListId);
+                entity.HasKey(e => new { e.UserName, e.Barcode });
 
-                entity.Property(e => e.ListId)
-                    .HasColumnName("listID")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.UserName).HasMaxLength(250);
 
-                entity.Property(e => e.ItemList).IsUnicode(false);
+                entity.Property(e => e.Barcode).HasMaxLength(50);
 
-                entity.Property(e => e.TotalCost).HasColumnType("money");
-
-                entity.Property(e => e.UserName)
-                    .IsRequired()
-                    .HasMaxLength(250);
+                entity.HasOne(d => d.BarcodeNavigation)
+                    .WithMany(p => p.ShoppingList)
+                    .HasForeignKey(d => d.Barcode)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_ShoppingList_Product");
 
                 entity.HasOne(d => d.UserNameNavigation)
                     .WithMany(p => p.ShoppingList)
@@ -179,17 +154,15 @@ namespace ShopBasketWeb.Models
 
             modelBuilder.Entity<Store>(entity =>
             {
-                entity.HasKey(e => e.StroreId);
-
-                entity.Property(e => e.StroreId)
-                    .HasColumnName("StroreID")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.StoreId).HasColumnName("StoreID");
 
                 entity.Property(e => e.Latitude).HasMaxLength(50);
 
                 entity.Property(e => e.Longitude).HasMaxLength(50);
 
-                entity.Property(e => e.Name).HasMaxLength(50);
+                entity.Property(e => e.StoreName)
+                    .HasColumnName("Store_Name")
+                    .HasMaxLength(50);
             });
 
             modelBuilder.Entity<User>(entity =>
@@ -210,9 +183,32 @@ namespace ShopBasketWeb.Models
                     .IsRequired()
                     .HasMaxLength(50);
 
-                entity.Property(e => e.Salt).HasMaxLength(250);
+                entity.Property(e => e.Salt)
+                    .IsRequired()
+                    .HasMaxLength(250);
 
-                entity.Property(e => e.Surename).HasMaxLength(50);
+                entity.Property(e => e.Surename)
+                    .IsRequired()
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.TypeId).HasColumnName("TypeID");
+
+                entity.HasOne(d => d.Type)
+                    .WithMany(p => p.User)
+                    .HasForeignKey(d => d.TypeId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_User_UserType");
+            });
+
+            modelBuilder.Entity<UserType>(entity =>
+            {
+                entity.HasKey(e => e.TypeId);
+
+                entity.Property(e => e.TypeId).HasColumnName("TypeID");
+
+                entity.Property(e => e.UserTitle)
+                    .IsRequired()
+                    .HasMaxLength(50);
             });
         }
     }

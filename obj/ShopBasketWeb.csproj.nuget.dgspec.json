@@ -45,7 +45,7 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[1.60.6, )"
+              "version": "[2.0.30, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -56,11 +56,17 @@
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.11, )"
             },
             "Microsoft.IdentityModel.Clients.ActiveDirectory": {
               "target": "Package",
-              "version": "[5.1.0, )"
+              "version": "[5.2.2, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",
